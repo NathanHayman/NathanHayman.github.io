@@ -1,0 +1,93 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar Section*/
+.navbar {
+  background-color: #f2ebc9;
+  color: #f2ebc9;
+  box-shadow: 0px 5px 10px -5px #111;
+}
+.navbar-light .navbar-brand {
+  color: #212529;
+}
+.navbar-light .navbar-toggler {
+  color: #212529;
+  border-color: #212529;
+}
+.navbar-light .navbar-toggler-icon {
+  color: #212529;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: #212529;
+}
+#logo {
+  width: 30px;
+}
+
+/* Home Section */
+#home-section {
+  background-image: url("/images/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  text-align: center;
+  color: #f2ebc9;
+  padding: clamp(200px, 20vh, 200px) 0;
+}
+.home-content {
+  padding-top: 50px;
+}
+#intro-vid {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  height: clamp(100px, 20vh, 200px);
+  width: clamp(100px, 20vh, 200px);
+}
+
+/* Bio Section */
+#bio-section {
+  background: #f2ebc9;
+  color: #212529;
+  padding-bottom: 5rem;
+}
+#bio-section p {
+  font-size: clamp(0.89rem, 1.2vw, 1.1rem);
+  margin-left: 30px;
+  text-align: left;
+}
+#bio-section li {
+  font-size: clamp(0.89rem, 1.2vw, 1.1rem);
+  margin-left: 30px;
+  text-align: left;
+}
+#bio-img {
+  width: clamp(300px, 20vw, 470px);
+  border-radius: 5%;
+  margin-right: 30px;
+}
+
+/* Projects Section*/
+#projects-section {
+  height: 60vh;
+}
+#project-pic {
+  width: 100px;
+  height: 100px;
+}
+
+/* Back to Top Button */
+#btn-back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  color: white;
+}
+
+/* Footer Section */
+#footer-section {
+  background-color: #f2ebc9;
+}
